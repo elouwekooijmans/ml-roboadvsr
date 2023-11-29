@@ -21,7 +21,7 @@ Connecting to the Github repository and creating a local working copy.
 Step-by-step on how to get a virtual environment running. 
 
 
-### Pushing Changes to Github
+## Pushing Changes to Github
 
 1. Pull the latest changes from the remote repository:
 
