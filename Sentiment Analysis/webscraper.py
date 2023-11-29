@@ -7,8 +7,7 @@ url = 'https://wsj.com/search'
 r = session.get(url)
 
 # scrolldown does not apply here. WSJ search is patagination
-r.html.render(sleep=1, scrolldown=0)
-
+r.html.render(sleep=1, scrolldown=2)
 articles = r.html.find('article')
 
 # declare dictionary var
